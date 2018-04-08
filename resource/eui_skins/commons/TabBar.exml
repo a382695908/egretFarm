@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:TabBar class="TabBar" xmlns:e="http://ns.egret.com/eui" width="24.86" height="3.14">
+	<e:layout>
+		<e:VerticalLayout gap="-2" horizontalAlign="justify" verticalAlign="contentJustify"/>
+	</e:layout>
+	<e:itemRendererSkinName>
+		<e:Skin states="up,down,disabled">
+			<e:Group minHeight="48" width="100%">
+				<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5"
+						 source="button_up_png"
+						 source.down="button_down_png"/>
+				<e:Label top="0" bottom="0" left="20" right="30"
+						 size="26" fontFamily="Tahoma" text="{data}"
+						 textColor="0xFFFFFF" verticalAlign="middle"/>
+			</e:Group>
+		</e:Skin>
+	</e:itemRendererSkinName>
+</e:TabBar>

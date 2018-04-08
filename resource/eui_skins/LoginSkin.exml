@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoginSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="login_bg_jpg" x="0" y="0" height="1136"/>
+	<e:Group id="login" height="720" width="528" horizontalCenter="0" y="285">
+		<e:Image source="tibiao_01" x="-34" y="-40" width="590" height="690" scale9Grid="80,130,105,50"/>
+		<e:Image source="img_01" x="0" y="0" height="600" scale9Grid="65,184,394,21"/>
+		<e:Image source="img_02" x="-35" y="-5"/>
+		<e:Image source="img_02" x="551" y="-8" rotation="360" skewY="180" anchorOffsetX="0.5" anchorOffsetY="0.5"/>
+		<e:Image source="logo_png" x="4" y="-234"/>
+		<e:Image source="lvhua_png" x="-15" y="560"/>
+		<e:Label text="请使用夺金通行证登录" y="85" horizontalCenter="0" size="25" fontFamily="Tahoma" bold="true"/>
+		<e:Group height="64" width="411" y="241" horizontalCenter="0.5">
+			<e:Image source="font_08" x="0" y="8"/>
+			<e:Image source="border_02" x="144" y="-3" scale9Grid="25,26,28,11" width="256"/>
+			<e:TextInput width="228" y="7" x="161" prompt="请输入密码" displayAsPassword="true"/>
+		</e:Group>
+		<e:Group height="56" width="402" y="159" horizontalCenter="0">
+			<e:Image source="font_07" x="0" y="-2"/>
+			<e:Image source="border_02" scale9Grid="25,26,28,11" y="-3" width="256" x="139"/>
+			<e:TextInput x="152" y="7" width="228" prompt="请输入账号"/>
+		</e:Group>
+		<e:Group height="55" width="403" y="332" horizontalCenter="0">
+			<e:Image source="font_14" x="269" y="10"/>
+			<e:Image source="font_18" x="54" y="9"/>
+			<e:Image source="font_16" x="6" y="9"/>
+			<e:Image source="font_16" x="225" y="9"/>
+			<e:Image source="font_20" x="7" y="4" width="44" height="39"/>
+			<e:Image source="font_20" width="44" y="5" height="39" x="228"/>
+		</e:Group>
+		<e:Group height="56" width="417" y="411" horizontalCenter="0">
+			<e:Image source="tibiao_26" x="12" verticalCenter="0"/>
+			<e:Image source="tibiao_26" x="234" verticalCenter="0"/>
+			<e:Label  id="register_btn" text="注册" x="16" textColor="0x7D2E09" verticalCenter="0" bold="true" width="157" height="48" verticalAlign="middle" textAlign="center"/>
+			<e:Label id="login_btn" text="登录" x="235" width="160" height="49" textColor="0x7D2E09" textAlign="center" verticalAlign="middle" verticalCenter="0.5" bold="true"/>
+		</e:Group>
+		<e:Label id="forget_btn" text="忘记密码" y="514" textColor="0x1307F6" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image source="font_01" y="1012" width="565" horizontalCenter="0.5"/>
+</e:Skin>

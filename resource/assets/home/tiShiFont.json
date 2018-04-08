@@ -1,0 +1,13 @@
+{"file":"tiShiFont.png","frames":{
+"panel_title_god9_png":{"x":0,"y":341,"w":262,"h":83,"offX":0,"offY":0,"sourceW":262,"sourceH":84},
+"panel_title_god10_png":{"x":0,"y":256,"w":262,"h":83,"offX":0,"offY":0,"sourceW":262,"sourceH":84},
+"panel_title_land0_png":{"x":264,"y":0,"w":201,"h":84,"offX":3,"offY":0,"sourceW":209,"sourceH":84},
+"panel_title_land1_png":{"x":264,"y":257,"w":201,"h":82,"offX":3,"offY":0,"sourceW":209,"sourceH":84},
+"panel_title_land2_png":{"x":264,"y":171,"w":199,"h":84,"offX":5,"offY":0,"sourceW":209,"sourceH":84},
+"panel_title_land3_png":{"x":264,"y":86,"w":202,"h":83,"offX":3,"offY":0,"sourceW":209,"sourceH":84},
+"panel_title_reg_png":{"x":264,"y":341,"w":150,"h":53,"offX":0,"offY":0,"sourceW":150,"sourceH":55},
+"panel_title_spread_png":{"x":0,"y":426,"w":262,"h":82,"offX":0,"offY":0,"sourceW":262,"sourceH":84},
+"panel_icon_spread_png":{"x":416,"y":341,"w":78,"h":84,"offX":3,"offY":0,"sourceW":86,"sourceH":84},
+"panel_title_god6_png":{"x":0,"y":0,"w":262,"h":84,"offX":0,"offY":0,"sourceW":262,"sourceH":84},
+"panel_title_god7_png":{"x":0,"y":86,"w":262,"h":83,"offX":0,"offY":0,"sourceW":262,"sourceH":84},
+"panel_title_god8_png":{"x":0,"y":171,"w":262,"h":83,"offX":0,"offY":0,"sourceW":262,"sourceH":84}}}

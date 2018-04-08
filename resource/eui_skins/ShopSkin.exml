@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopSkin" width="439" height="110" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="427.28" height="95.91" x="0" y="3" anchorOffsetX="0" anchorOffsetY="0">
+        <e:Image source="wenzi_json.wenzi_08" x="5.39" y="-2.35" anchorOffsetX="0" width="431.97" scale9Grid="28,34,108,41"/>
+        <e:Label text="种子 x1000" x="87.73" y="15.56" size="18" textColor="0x895309"/>
+        <e:Image source="wenzi_json.wenzi_34" x="199.39" y="1.71"/>
+        <e:Label text="谜一样的种子，不知道种下去得到的是什么" x="85.67" y="47" size="16" textColor="0x422a03" anchorOffsetX="0" width="225.12" anchorOffsetY="0" height="43.19"/>
+        <e:Image x="324.77" y="14.08" anchorOffsetX="0" width="85.94" anchorOffsetY="0" height="43.48" source="tubiao_json.tibiao_26"/>
+        <e:Label text="购买" x="333.57" y="19.48" textColor="0x7a4401" anchorOffsetX="0" width="66.06" anchorOffsetY="0" height="30" verticalAlign="middle" textAlign="center" size="25" bold="true"/>
+        <e:Label text="1600" x="244.4" y="16.52" anchorOffsetX="0" width="52.79" anchorOffsetY="0" height="19.39" size="17" strokeColor="0x593504" stroke="2" textAlign="left" verticalAlign="bottom"/>
+        <e:Label text="剩余 75.4万" x="319.28" y="63.95" size="17" textColor="0x000000" width="100"/>
+		<e:Group width="76" height="75" x="10" y="14" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="panel_png" x="1" y="-2" anchorOffsetX="0" width="73"/>
+			<e:Image source="plants_json.plants09" anchorOffsetX="0" width="46" anchorOffsetY="0" height="51" horizontalCenter="0" verticalCenter="-6"/>
+			<e:Label text="X1000" x="8" y="57" anchorOffsetX="0" width="60" anchorOffsetY="0" height="17" textColor="0x4f2a03" size="13" textAlign="right"/>
+		</e:Group>
+    </e:Group>
+</e:Skin>

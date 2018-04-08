@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LandUpSkin" width="448" height="129" xmlns:e="http://ns.egret.com/eui">
+    <e:Group width="447" height="123" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+        <e:Image source="panel_bg_png" x="-0.5" y="-3" anchorOffsetX="0" width="445" anchorOffsetY="0" height="129"/>
+			<e:Image x="342.77" y="45.08" anchorOffsetX="0" width="78.94" anchorOffsetY="0" height="37.48" source="tubiao_json.tibiao_26"/>
+			<e:Label text="升级" x="349.21" y="48.82" textColor="0x7A4401" anchorOffsetX="0" width="66.06" anchorOffsetY="0" height="30" verticalAlign="middle" textAlign="center" size="25" bold="true"/>
+			<e:Image source="tubiao_json.tibiao_15" x="185" y="60"/>
+			<e:Image source="tubiao_json.tibiao_15" x="253" y="58"/>
+			<e:Group x="30" y="6">
+				<e:Image source="rank_json.rank_01" x="5" y="0" rotation="9.81" anchorOffsetX="0" width="83.51" anchorOffsetY="0" height="111.38"/>
+				<e:Image source="gongju_json.gongju_10" x="9" y="27.450000000000003" anchorOffsetX="0" width="61" anchorOffsetY="0" height="53"/>
+				<e:Label text="红土地" x="0" y="83" size="18" bold="true" rotation="9.05" textColor="0xffffff" stroke="2" strokeColor="0x3a1d02" anchorOffsetX="0" width="64.53" anchorOffsetY="0" height="20.69" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+        <e:Label text="升级红土地消耗" x="133" y="4" anchorOffsetX="0" width="164" size="18" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="21" stroke="1" strokeColor="0x3a1c01"/>
+        <e:Group id="wupin_left" width="36" height="37" x="142" y="52" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="gongju_json.gongju_53" x="0" y="-0.5" anchorOffsetX="0" width="37" anchorOffsetY="0" height="35"/>
+			<e:Image source="wenzi_json.wenzi_09" x="6.5" y="-26" scale9Grid="20,13,3,3" anchorOffsetX="0" width="53" anchorOffsetY="0" height="34"/>
+			<e:Label text="70" x="14" y="-22" anchorOffsetX="0" width="39" anchorOffsetY="0" height="19" size="12" textColor="0x000000" verticalAlign="middle" textAlign="center"/>
+					<e:Label text="0" x="3" y="38" anchorOffsetX="0" width="29" anchorOffsetY="0" height="16" size="18" textColor="0x3d2402" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+        <e:Group id="wupin_center" width="38" height="37" x="214.38" y="52" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="gongju_json.gongju_66" x="-1" y="-5" anchorOffsetX="0" width="41" anchorOffsetY="0" height="40"/>
+			<e:Image source="wenzi_json.wenzi_09" x="-5.62" y="-27" scale9Grid="20,13,3,3" anchorOffsetX="0" width="53" anchorOffsetY="0" height="34"/>
+			<e:Label text="70" x="3" y="-24" anchorOffsetX="0" width="38" anchorOffsetY="0" height="21" size="12" textColor="0x000000" verticalAlign="middle" textAlign="center"/>
+					<e:Label text="0" x="5" y="37" anchorOffsetX="0" width="29" anchorOffsetY="0" height="16" size="18" textColor="0x3D2402" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+        <e:Group id="wupin_right" width="38" height="37" x="282.38" y="51" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="gongju_json.gongju_66" x="-1" y="-5" anchorOffsetX="0" width="41" anchorOffsetY="0" height="40"/>
+			<e:Image source="wenzi_json.wenzi_09" x="-5.62" y="-27" scale9Grid="20,13,3,3" anchorOffsetX="0" width="53" anchorOffsetY="0" height="34"/>
+			<e:Label text="70" x="3" y="-24" anchorOffsetX="0" width="38" anchorOffsetY="0" height="21" size="12" textColor="0x000000" verticalAlign="middle" textAlign="center"/>
+					<e:Label text="0" x="2" y="38" anchorOffsetX="0" width="29" anchorOffsetY="0" height="16" size="18" textColor="0x3D2402" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+    </e:Group>
+</e:Skin>

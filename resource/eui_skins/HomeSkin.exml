@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*" xmlns:components="components.*">
+	<w:Config id="15c577e5b66"/>
+	<e:Group id="home_bg" width="100%" height="100%" x="0" y="0">
+		<e:Image source="home_bg_jpg" x="0" y="0" height="1136" scaleX="1" scaleY="1"/>
+		<e:Group id="index_page" height="100%" width="100%" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Group id="cancle_chose" width="100%" height="886" x="0" y="250" anchorOffsetY="0">
+			</e:Group>
+			<e:Image id="up_house" source="house04" x="303" y="244" width="354" height="314"/>
+			<e:Group id="status_gp" height="140" width="420.67" x="-0.67" y="480" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Group height="174" width="637" x="3" y="2">
+			<e:Group id="up_down_panel" height="106" width="447" x="180" y="110">
+				<e:Image source="icon_json.icon_02" x="8" y="-18" height="106" width="100%"/>
+				<e:Image id="paihang" source="icon_json.icon_05" x="142" y="3" width="83" height="74"/>
+				<e:Image id="rizhi" source="icon_json.icon_12" x="36" y="4" width="90" height="75"/>
+				<e:Image id="chongzhi" source="icon_json.icon_41" x="240" y="1" height="76" width="73"/>
+				<e:Image id="nongchang" source="nongchang_png" x="331" y="-1" width="81" height="79"/>
+			</e:Group>
+			<e:Image id="user_panel" source="icon_json.icon_01" y="-14" width="652" height="183" horizontalCenter="-11.5"/>
+			<e:Label text="千叶祥龙的家园" size="22" bold="true" verticalCenter="-19" x="264" width="215" textAlign="center"/>
+			<e:Image id="up_down" source="trangle_png" x="545" y="38"/>
+			<e:Image id="open_user_msg" source="user01_png" x="33" y="24" width="92" height="92"/>
+			<e:Group height="40" width="456" x="137" y="3">
+				<e:Image source="gongju_50" x="16" width="47" height="34" verticalCenter="0"/>
+				<e:Image width="44" height="34" x="132" verticalCenter="0" source="gongju_64"/>
+				<e:Image width="47" height="34" x="243" verticalCenter="0" source="gongju_36"/>
+				<e:Image width="36" height="30" x="358" verticalCenter="1" source="gongju_60"/>
+				<e:Label text="1000" x="68" y="6" size="20" height="32" width="60" textAlign="center" verticalAlign="middle"/>
+				<e:Label y="5" size="20" text="3000" textAlign="center" width="60" height="32" verticalAlign="middle" x="179"/>
+				<e:Label y="5" height="32" text="5000" textAlign="center" width="60" size="20" verticalAlign="middle" x="292"/>
+				<e:Label y="5" size="20" text="8000" textAlign="center" width="60" height="32" verticalAlign="middle" x="398"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="dog_gp" width="84" height="95" x="332" y="525" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Group height="267" width="536.34" x="55.65" y="607.91" anchorOffsetX="0" anchorOffsetY="0" rotation="1.24">
+			<e:Image source="weilan02" width="495.85" height="240.08" rotation="2.72" x="315.91" y="-54.91" anchorOffsetX="183.1" anchorOffsetY="40.04" touchEnabled="false" pixelHitTest="true"/>
+			<e:Group id="crops_bottom" height="257.05" width="536.26" x="537" y="-1" rotation="359.85" anchorOffsetX="537.19" anchorOffsetY="0.32">
+				<e:Image source="tudi_json.tudi03" x="-51.77" y="59.63"/>
+				<e:Image source="tudi_json.tudi02" x="38.01" y="7.6"/>
+				<e:Image source="tudi_json.tudi01" x="123.82" y="-43.9"/>
+				<e:Image source="tudi_json.tudi03" x="46.05" y="111.29"/>
+				<e:Image source="tudi_json.tudi02" x="136.16" y="58.73"/>
+				<e:Image source="tudi_json.tudi01" x="220.83" y="9.56"/>
+				<e:Image source="tudi_json.tudi03" x="139.79" y="165.41"/>
+				<e:Image source="tudi_json.tudi02" x="231.08" y="112.84"/>
+				<e:Image source="tudi_json.tudi01" x="317.59" y="61.34"/>
+				<e:Image source="tudi_json.tudi03" x="238.4" y="218.24"/>
+				<e:Image source="tudi_json.tudi02" x="330.37" y="165.34"/>
+				<e:Image source="tudi_json.tudi01" x="415.55" y="112.84"/>
+			</e:Group>
+			<e:Group id="crops_top" height="257.05" width="536.26" x="537" y="-1" rotation="359.85" anchorOffsetX="537.19" anchorOffsetY="0.32" touchEnabled="false">
+				<e:Image x="-51.77" y="59.63" source="tudi_json.tudi01" touchEnabled="false" visible="false"/>
+				<e:Image x="38.01" y="7.6" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
+				<e:Image source="tudi_json.tudi01" x="123.82" y="-43.9" visible="false" touchEnabled="false"/>
+				<e:Image x="46.05" y="111.29" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
+				<e:Image x="136.16" y="58.73" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
+				<e:Image source="tudi_json.tudi01" x="220.83" y="9.56" visible="false" touchEnabled="false"/>
+				<e:Image x="139.79" y="165.41" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
+				<e:Image x="231.08" y="112.84" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
+				<e:Image source="tudi_json.tudi01" x="317.59" y="61.34" visible="false" touchEnabled="false"/>
+				<e:Image x="238.4" y="218.24" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
+				<e:Image x="330.37" y="165.34" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
+				<e:Image source="tudi_json.tudi01" x="415.55" y="112.84" visible="false" touchEnabled="false"/>
+			</e:Group>
+			<e:Image id="crops_mask" source="touming1_png" x="-54.83" y="56.66" anchorOffsetX="0" width="177.99" anchorOffsetY="0" height="103.01" touchEnabled="false" visible="false"/>
+			<e:Group id="crops_tishi" width="177.52" height="114.41" x="205" y="-3.71" anchorOffsetX="88.37" anchorOffsetY="115.29" touchEnabled="false" visible="false">
+				<e:Image id="tishi_right" source="icon_json.icon_33" x="94.22" y="-3.04"/>
+				<e:Image id="tishi_left" source="icon_json.icon_32" x="-4.01" y="-2.16"/>
+			</e:Group>
+			<e:Image source="weilan05" x="93.84" y="202.76" width="635.83" height="242.33" rotation="2.81" anchorOffsetX="144.01" anchorOffsetY="76.82" touchEnabled="false" pixelHitTest="true"/>
+			<e:Image x="-51.77" y="58.3" source="touming1" visible="false"/>
+			</e:Group>
+			<e:Group id="guoyuan_gp" height="230" width="250" x="0" y="906">
+			<e:Image source="icon_json.icon_09" x="8" y="-3" width="67" height="71"/>
+			<e:Image source="icon_json.icon_11" x="89" y="8" width="67" height="71"/>
+			<e:Image source="icon_json.icon_10" x="152" y="68" width="67" height="71"/>
+			<e:Image source="icon_json.icon_23" x="160" y="151" width="67" height="71"/>
+			</e:Group>
+			<e:Group id="jiayuan_gp" width="240" height="232" x="400" y="903">
+			<e:Image id="open_zhuangban" source="icon_json.icon_07" x="12" y="153" width="67" height="71"/>
+			<e:Image id="open_duihuan" source="icon_json.icon_08" x="20" y="68" width="70" height="71"/>
+			<e:Image id="open_save_house" source="icon_json.icon_19" x="75" y="5" width="67" height="71"/>
+			<e:Image id="open_shop" source="icon_json.icon_40" x="159" y="-3" width="67" height="71"/>
+			</e:Group>
+			<e:Button id="my_jiayuan" x="491" y="1001">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" width.down="90%" height.down="90%" source="icon_json.icon_03" source.down="icon_json.icon_03" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="my_guoyuan" y="1001" x="0" width="138">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" width.down="90%" height.down="90%" source="icon_json.icon_04" source.down="icon_json.icon_04" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay2" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Rect id="black_mask01" width="100%" y="0" height="100%" fillAlpha="0.5" x="0" visible="false" scaleX="1" scaleY="1"/>
+		<e:Group id="day_record" height="714" width="560" horizontalCenter="0" verticalCenter="0" visible="false" x="40" y="211" scaleX="1" scaleY="1">
+			<e:Image source="tibiao_01" x="0" y="0" width="100%" height="100%" scale9Grid="117,134,51,51"/>
+			<e:Image source="wenzi_12" x="7" y="-12" width="543" scale9Grid="168,24,42,20" height="84"/>
+			<e:Image source="icon_12" x="140" y="-22"/>
+			<e:Image source="wenzi_38" x="257" y="-26"/>
+			<e:Scroller width="472" height="567" x="44" y="82" enabled="true">
+			<e:Group>
+				<e:Group width="448" y="34" height="78" horizontalCenter="0">
+				<e:Image source="wenzi_13" y="0" scale9Grid="18,20,98,86" width="444" height="78" x="6"/>
+				<e:Label y="10" textColor="0x643B01" horizontalCenter="0.5" text="2017-05-09 17：52：04" textAlign="left" width="411" height="40%" size="20" verticalAlign="middle"/>
+				<e:Label width="421" y="44" textColor="0x643B01" verticalAlign="middle" text="【5】号土地施肥扣除化肥一袋" lineSpacing="20" size="20" height="40%" x="11"/>
+				</e:Group>
+				<e:List height="200" width="200" x="112" y="314"/>
+			</e:Group>
+			</e:Scroller>
+			<e:Image source="tibiao_25" y="641" horizontalCenter="0.5" width="183"/>
+			<e:Label id="close_rizhi" text="离开" y="651" width="171" height="49" textAlign="center" verticalAlign="middle" textColor="0x522604" bold="true" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Group id="rank_gp" width="560" horizontalCenter="0" height="769" verticalCenter="0.5" x="40" y="184" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="tibiao_01" y="0" scale9Grid="117,134,51,51" width="558" height="100%" horizontalCenter="0"/>
+			<e:Group height="621" width="492" horizontalCenter="0" verticalCenter="0">
+			<e:Image source="wenzi_01" width="473" height="577" scale9Grid="154,60,56,40" pixelHitTest="true" horizontalCenter="0.5" verticalCenter="-5"/>
+			<e:TabBar id="tabBar" dataProvider="{viewStack}" width="457" height="54.67" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-5.5" verticalCenter="-270">
+				<e:layout>
+				<e:HorizontalLayout/>
+				</e:layout>
+				<e:itemRendererSkinName>
+				<e:Skin states="up,down,disabled" height="53" width.up="142">
+					<e:Group minHeight="48" width="142" anchorOffsetY="0" height="54" anchorOffsetX="0" x="-3" y="0" x.up="-1" y.up="2" width.up="141" y.down="-6" height.down="63" x.down="-3" height.up="49">
+					<e:Image width="142" height="53" alpha.disabled="0.5" anchorOffsetX="0" x="-2" y="-4" scale9Grid="14,12,66,22" anchorOffsetY="0" includeIn="up" source="wenzi_51"/>
+					<e:Label size="26" text="{data}" fontFamily="huakang" textColor="0xFFFFFF" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" width="137" height="100%" x="3" y="0" width.up="138" width.down="137" height.down="52" y.down="5" height.up="48" y.up="0" x.up="0" strokeColor.up="0xe26d04" textColor.up="0xe26d04" stroke.down="3" strokeColor.down="0xe26d04" text.down="{data}" includeIn="up"/>
+					<e:Image width="153" height="62" includeIn="down" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" source="wenzi_14" scale9Grid="16,17,76,27"/>
+					<e:Label text="{data}" includeIn="down" x="6" y="8" fontFamily="huakang" anchorOffsetX="0" width="132" anchorOffsetY="0" height="49" size="25" verticalAlign="middle" textAlign="center" textColor="0xe00030"/>
+					</e:Group>
+				</e:Skin>
+				</e:itemRendererSkinName>
+			</e:TabBar>
+			<e:ViewStack id="viewStack" width="450" height="474.24" y="68.38" selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+				<e:Group width="100%" height="500" name="农场排名" anchorOffsetY="0" x="0" y="3">
+				<e:Group x="4" y="-0.71" anchorOffsetX="0" width="443" anchorOffsetY="0" height="46">
+					<e:Label text="排名" x="3" anchorOffsetX="0" width="81" textAlign="center" size="22" anchorOffsetY="0" height="21" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="游戏昵称" x="94" anchorOffsetX="0" width="98" textAlign="center" size="22" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="等级" x="203.5" anchorOffsetX="0" width="79" size="22" anchorOffsetY="0" height="18" textAlign="center" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="财富" x="292.5" anchorOffsetX="0" width="51" textAlign="center" size="22" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="家园" x="369.5" anchorOffsetX="0" width="51" textAlign="center" size="22" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" stroke="2" strokeColor="0x9c460b"/>
+				</e:Group>
+				<e:Scroller y="50" width="450" height="449.33" enabled="true" skinName="skins.ScrollerSkin" horizontalCenter="0" anchorOffsetY="0" anchorOffsetX="0">
+					<e:List id="crops_list" width="100%" y="30" height="100%" x="0">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+					</e:List>
+					<e:Skin>
+					<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+						<e:Skin>
+						<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+						</e:Skin>
+					</e:VScrollBar>
+					</e:Skin>
+				</e:Scroller>
+				</e:Group>
+				<e:Group width="100%" height="500" name="好友排名" anchorOffsetY="0" x="0" y="3">
+				<e:Group x="4" y="-0.71" anchorOffsetX="0" width="443" anchorOffsetY="0" height="46">
+					<e:Label text="排名" x="3" anchorOffsetX="0" width="81" textAlign="center" size="22" anchorOffsetY="0" height="21" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="游戏昵称" x="94" anchorOffsetX="0" width="98" textAlign="center" size="22" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="等级" x="203.5" anchorOffsetX="0" width="79" size="22" anchorOffsetY="0" height="18" textAlign="center" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="财富" x="292.5" anchorOffsetX="0" width="51" textAlign="center" size="22" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="家园" x="369.5" anchorOffsetX="0" width="51" textAlign="center" size="22" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" stroke="2" strokeColor="0x9c460b"/>
+				</e:Group>
+				<e:Scroller y="50" width="450" height="449.33" enabled="true" skinName="skins.ScrollerSkin" horizontalCenter="0" anchorOffsetY="0" anchorOffsetX="0">
+					<e:List id="friends_list" width="100%" y="30" height="100%" x="0">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+					</e:List>
+					<e:Skin>
+					<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+						<e:Skin>
+						<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+						</e:Skin>
+					</e:VScrollBar>
+					</e:Skin>
+				</e:Scroller>
+				</e:Group>
+				<e:Group width="100%" height="500" name="宠物排名" anchorOffsetY="0" x="0" y="3">
+				<e:Group x="4" y="-0.71" anchorOffsetX="0" width="443" anchorOffsetY="0" height="46">
+					<e:Label text="排名" x="3" anchorOffsetX="0" width="81" textAlign="center" size="22" anchorOffsetY="0" height="21" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="宠物昵称" x="94" anchorOffsetX="0" width="98" textAlign="center" size="22" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="主人昵称" x="203.5" anchorOffsetX="0" width="79" size="22" anchorOffsetY="0" height="18" textAlign="center" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="等级" x="292.5" anchorOffsetX="0" width="51" textAlign="center" size="22" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" strokeColor="0x9c460b" stroke="2"/>
+					<e:Label text="评分" x="369.5" anchorOffsetX="0" width="51" textAlign="center" size="22" verticalCenter="0" fontFamily="huakang" textColor="0xffcc00" stroke="2" strokeColor="0x9c460b"/>
+				</e:Group>
+				<e:Scroller y="50" width="450" height="449.33" enabled="true" skinName="skins.ScrollerSkin" horizontalCenter="0" anchorOffsetY="0" anchorOffsetX="0">
+					<e:List id="pets_list" width="100%" y="30" height="100%" x="0">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+					</e:List>
+					<e:Skin>
+					<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+						<e:Skin>
+						<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+						</e:Skin>
+					</e:VScrollBar>
+					</e:Skin>
+				</e:Scroller>
+				</e:Group>
+			</e:ViewStack>
+			</e:Group>
+			<e:Image source="wenzi_12" y="-12" scale9Grid="168,24,42,20" width="543" height="84" x="7"/>
+			<e:Image source="wenzi_18" x="215" y="-25"/>
+			<e:Image source="icon_05" x="110" y="-28"/>
+			<e:Image id="search_player" source="rank_14" x="454" y="-8"/>
+			<e:Image source="tibiao_25" y="696" horizontalCenter="0.5" width="183"/>
+			<e:Label id="close_paihang" text="离开" y="706" width="171" height="49" textAlign="center" verticalAlign="middle" textColor="0x522604" bold="true" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Rect id="black_mask02" height="100%" width="100%" x="0" y="0" fillAlpha="0.4" scaleX="1" scaleY="1" visible="false"/>
+		<e:Group id="save_house" width="560" y="218" height="700" horizontalCenter="0" verticalCenter="0" x="40" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="tibiao_01" width="558" y="0" scale9Grid="117,134,51,51" horizontalCenter="0" height="100%"/>
+			<e:Image source="tibiao_25" horizontalCenter="0.5" y="624" width="183"/>
+			<e:Label id="close_save_house" width="171" y="634" textColor="0x522604" text="离开" textAlign="center" bold="true" verticalAlign="middle" horizontalCenter="0.5" height="49"/>
+			<e:Image source="wenzi_03" x="192" y="-27"/>
+			<e:Image source="tibiao_31" x="96" y="-26" width="87"/>
+			<e:Group height="475" width="492" horizontalCenter="-2" verticalCenter="-11.5" anchorOffsetY="0">
+				<e:Image source="tabPanel_png" x="13.62" y="51" scale9Grid="29,16,175,30" anchorOffsetY="0" height="464.52" anchorOffsetX="0" width="471.48"/>
+				<e:TabBar id="houseTabBar" dataProvider="{houseViewStack}" width="428.21" height="54.67" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-207" horizontalCenter="4">
+					<e:layout>
+					<e:HorizontalLayout/>
+					</e:layout>
+					<e:itemRendererSkinName>
+					<e:Skin states="up,down,disabled" height="53" width.up="100">
+						<e:Group minHeight="48" width="107" anchorOffsetY="0" height="62" anchorOffsetX="0" x="-3" y="-7" x.up="-1" y.up="1" width.up="100" y.down="-4" height.down="63" x.down="-3" height.up="53" width.down="103">
+						<e:Image width="106" height="49" alpha.disabled="0.5" anchorOffsetX="0" x="-2" y="1" scale9Grid="14,12,66,22" anchorOffsetY="0" includeIn="up" source="wenzi_51"/>
+						<e:Label size="26" text="{data}" fontFamily="huakang" textColor="0xFFFFFF" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" width="101" height="100%" x="3" y="0" width.up="99" width.down="137" height.down="52" y.down="5" height.up="52" y.up="0" x.up="0" strokeColor.up="0xe26d04" textColor.up="0xe26d04" stroke.down="3" strokeColor.down="0xe26d04" text.down="{data}" includeIn="up"/>
+						<e:Image width="115" height="60" includeIn="down" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" source="wenzi_14" scale9Grid="16,17,76,27"/>
+						<e:Label text="{data}" includeIn="down" x="6" y="8" fontFamily="huakang" anchorOffsetX="0" width="94" anchorOffsetY="0" height="50" size="25" verticalAlign="middle" textAlign="center" textColor="0xe00030"/>
+						</e:Group>
+					</e:Skin>
+					</e:itemRendererSkinName>
+				</e:TabBar>
+			<e:ViewStack id="houseViewStack" width="450" height="438.24" y="64.88" selectedIndex="3" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="6">
+				<e:Group width="100%" height="434" name="果实" anchorOffsetY="0" y="3" horizontalCenter="0">
+				<e:List id="guoshi_list" width="462.13" y="1.24" height="100%" x="-3" anchorOffsetX="0">
+					<e:layout>
+					<e:TileLayout horizontalAlign="center" verticalAlign="middle" orientation="rows"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+				<e:Group width="100%" height="500" name="材料" anchorOffsetY="0" x="0" y="3">
+				<e:List id="cailiao_list" width="100%" y="1.24" height="100%" x="-3">
+					<e:layout>
+					<e:TileLayout horizontalAlign="center" verticalAlign="middle" orientation="rows"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+				<e:Group width="100%" height="500" name="宝石" anchorOffsetY="0" x="0" y="3">
+				<e:List id="baoshi_list" width="100%" y="1.24" height="100%" x="-3">
+					<e:layout>
+					<e:TileLayout horizontalAlign="center" verticalAlign="middle" orientation="rows"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+				<e:Group width="100%" height="500" name="道具" anchorOffsetY="0" x="0" y="3">
+				<e:List id="daoju_list" width="100%" y="1.24" height="100%" x="-3">
+					<e:layout>
+					<e:TileLayout horizontalAlign="center" verticalAlign="middle" orientation="rows"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+			</e:ViewStack>
+			</e:Group>
+		</e:Group>
+		<e:Group id="build_center" width="560" y="228" height="700" horizontalCenter="0" verticalCenter="0" x="50" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="tibiao_01" width="558" y="0" scale9Grid="117,134,51,51" horizontalCenter="0" height="100%"/>
+			<e:Image source="tibiao_25" horizontalCenter="0.5" y="624" width="183"/>
+			<e:Label id="close_build_center" width="171" y="634" textColor="0x522604" text="离开" textAlign="center" bold="true" verticalAlign="middle" horizontalCenter="0.5" height="49"/>
+			<e:Image x="196.56" y="-27" source="wenzi_json.wenzi_05"/>
+			<e:Image x="100.56" y="-26" width="87" source="tubiao_json.tibiao_07"/>
+			<e:Group height="475" width="492" horizontalCenter="-2" verticalCenter="-11.5" anchorOffsetY="0">
+			<e:Image source="tabPanel_png" x="13.62" y="51" scale9Grid="29,16,175,30" anchorOffsetY="0" height="464.52" anchorOffsetX="0" width="471.48"/>
+			<e:TabBar id="buildTabBar" dataProvider="{buildViewStack}" width="428.21" height="54.67" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-207" horizontalCenter="4">
+					<e:layout>
+					<e:HorizontalLayout/>
+					</e:layout>
+					<e:itemRendererSkinName>
+					<e:Skin states="up,down,disabled" height="53" width.up="129">
+						<e:Group minHeight="48" width="107" anchorOffsetY="0" height="62" anchorOffsetX="0" x="-3" y="-7" x.up="-1" y.up="1" width.up="129" y.down="-4" height.down="63" x.down="-3" height.up="53" width.down="135">
+						<e:Image width="132" height="49" alpha.disabled="0.5" anchorOffsetX="0" x="-2" y="1" scale9Grid="14,12,66,22" anchorOffsetY="0" includeIn="up" source="wenzi_51"/>
+						<e:Label size="26" text="{data}" fontFamily="huakang" textColor="0xFFFFFF" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" width="101" height="100%" x="3" y="0" width.up="128" width.down="137" height.down="52" y.down="5" height.up="52" y.up="0" x.up="0" strokeColor.up="0xe26d04" textColor.up="0xe26d04" stroke.down="3" strokeColor.down="0xe26d04" text.down="{data}" includeIn="up"/>
+						<e:Image width="146" height="60" includeIn="down" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" source="wenzi_14" scale9Grid="16,17,76,27"/>
+						<e:Label text="{data}" includeIn="down" x="6" y="8" fontFamily="huakang" anchorOffsetX="0" width="128" anchorOffsetY="0" height="50" size="25" verticalAlign="middle" textAlign="center" textColor="0xe00030"/>
+						</e:Group>
+					</e:Skin>
+					</e:itemRendererSkinName>
+				</e:TabBar>
+			<e:ViewStack id="buildViewStack" width="450" height="438.24" y="64.88" selectedIndex="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="6">
+				<e:Group width="448" height="434" name="房屋升级" anchorOffsetY="0" x="0" y="3" anchorOffsetX="0" visible="false">
+					<e:Group width="394" height="228" x="28" y="14" anchorOffsetX="0" anchorOffsetY="0">
+						<e:Image source="houseImg_json.house_img5_png" x="10" y="6.62" anchorOffsetX="0" width="365" anchorOffsetY="0" height="217"/>
+						<e:Image source="house_json.house02" x="98.86" y="29.62" anchorOffsetX="0" width="188" anchorOffsetY="0" height="161"/>
+						<e:Image source="wenzi_json.wenzi_32" x="344.48" y="-7.38" anchorOffsetX="0" width="36" anchorOffsetY="0" height="37"/>
+						<e:Image source="rank_json.rank_07" x="-7" y="-10" anchorOffsetX="0" width="101" anchorOffsetY="0" height="64"/>
+						<e:Image source="number_json.10" x="8" y="13.12" anchorOffsetX="0" width="18" anchorOffsetY="0" height="28"/>
+						<e:Image source="number_json.9" x="23.5" y="11.62" anchorOffsetX="0" width="19" anchorOffsetY="0" height="27"/>
+						<e:Image source="number_json.12" x="40" y="21" anchorOffsetX="0" width="11" anchorOffsetY="0" height="11"/>
+						<e:Image source="number_json.2" x="50.93" y="-1.88" anchorOffsetX="0" width="21" anchorOffsetY="0" height="34"/>
+						<e:Image source="rank_json.rank_02" x="127" y="189" anchorOffsetX="0" width="119" anchorOffsetY="0" height="49"/>
+						<e:Image source="rank_json.rank_05" x="202" y="185" anchorOffsetX="0" width="37" anchorOffsetY="0" height="47" touchEnabled="false"/>
+						<e:Label text="升级" x="140" y="195.5" fontFamily="huakang" anchorOffsetX="0" width="66" anchorOffsetY="0" height="36" textAlign="center" touchEnabled="false" size="28" verticalAlign="middle"/>
+					</e:Group>
+					<e:Label text="房屋等级每提升1级，将获得1块新土地" x="19" y="263" anchorOffsetX="0" width="418" size="20" textColor="0xef0202" verticalAlign="middle" textAlign="center"/>
+					<e:Group x="66" y="296" anchorOffsetX="0" width="94">
+						<e:Image source="rank_json.rank_01" x="7" y="0" anchorOffsetX="0" width="93" anchorOffsetY="0" height="124"/>
+						<e:Image source="gongju_json.gongju_50" y="25.120000000000005" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+						<e:Label text="1" x="19" y="91" anchorOffsetX="0" width="71" anchorOffsetY="0" height="24" verticalAlign="middle" textAlign="center" textColor="0x562402" size="20" bold="true"/>
+					</e:Group>
+					<e:Group x="248" y="295" anchorOffsetX="0" width="100">
+						<e:Image source="rank_json.rank_01" x="5" y="0" anchorOffsetX="0" width="93" anchorOffsetY="0" height="124"/>
+						<e:Image y="25.120000000000005" anchorOffsetX="0" anchorOffsetY="0" source="gongju_json.gongju_60" horizontalCenter="0"/>
+						<e:Label text="1" x="19" y="91" anchorOffsetX="0" width="71" anchorOffsetY="0" height="24" verticalAlign="middle" textAlign="center" textColor="0x562402" size="20" bold="true"/>
+					</e:Group>
+				</e:Group>
+				<e:Group width="446" height="434" name="土地升级" anchorOffsetY="0" x="0" y="3" anchorOffsetX="0">
+				<e:List id="landup_list" width="100%" y="1.24" height="444" x="-3" anchorOffsetY="0">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+					
+				</e:Group>
+			</e:ViewStack>
+			</e:Group>
+		</e:Group>
+		<e:Group id="find_player" height="379" width="480" horizontalCenter="0" verticalCenter="-0.5" x="80" y="378" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="tibiao_02" scale9Grid="49,56,83,24" width="439" height="304" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="close_search_player" source="tibiao_38" x="408" y="15" width="65" height="62"/>
+			<e:Image source="wenzi_20" x="87" y="25" width="66" height="51"/>
+			<e:Image source="wenzi_43" x="346" y="36"/>
+			<e:Image source="rank_18" x="149" y="13" width="205" height="64"/>
+			<e:Group height="50" width="359" x="58" y="105">
+			<e:Label text="按ID查找玩家" x="10" y="15" textColor="0xCC6C0D" size="20"/>
+			<e:Rect height="37" width="142" x="136" y="7" fillColor="0x753A03" ellipseWidth="20"/>
+			<e:TextInput x="140" y="7" width="139" prompt="请输入账号" height="37"/>
+			<e:Image source="tibiao_26" x="291" verticalCenter="0.5" width="63" height="39"/>
+			<e:Label text="查找" x="295" textColor="0x7D2E09" bold="true" width="52" height="31" verticalAlign="middle" textAlign="center" y="11" size="20"/>
+			</e:Group>
+			<e:Rect height="1" width="342" x="67" y="168" fillColor="0x713800" strokeColor="0xF30E38" strokeWeight="0"/>
+		</e:Group>
+		<e:Group id="user_msg" horizontalCenter="0" verticalCenter="-0.5" width="480" height="379" x="80" y="378" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="tibiao_02" scale9Grid="49,56,83,24" horizontalCenter="0" verticalCenter="0" width="439" height="304"/>
+			<e:Image id="close_user_msg" source="tibiao_38" y="15" x="408" width="65" height="62"/>
+			<e:Image source="wenzi_20" width="66" y="25" height="51" x="87"/>
+			<e:Image source="wenzi_43" y="36" x="346"/>
+			<e:Image source="usermsg_01" x="151" y="11" width="208" height="71"/>
+			<e:Image source="border_05" x="60" y="99" width="128" height="142"/>
+			<e:Group height="161" width="212" x="197" y="92">
+			<e:Image source="usermsg_04" x="8" y="7"/>
+			<e:Image source="usermsg_05" x="12" y="43"/>
+			<e:Image source="usermsg_02" x="6" y="80"/>
+			<e:Image source="usermsg_03" x="8" y="114"/>
+			<e:Label text="千叶祥龙" x="111" y="13" width="101" size="20" bold="true" border="false" stroke="1" strokeColor="0x9C3803" textColor="0xFFFFFF" verticalAlign="middle"/>
+			<e:Label y="48" strokeColor="0x9C3803" stroke="1" text="10010" bold="true" width="101" border="false" size="20" textColor="0xFFFFFF" x="107" height="26" verticalAlign="middle"/>
+			<e:Label y="80" strokeColor="0x9C3803" stroke="1" text="LV.12" bold="true" width="101" border="false" size="20" textColor="0xFFFFFF" x="108" verticalAlign="middle" height="26"/>
+			<e:Label y="114" strokeColor="0x9C3803" stroke="1" text="80222" bold="true" width="66" border="false" size="20" textColor="0xFFFFFF" x="145" height="26" textAlign="center" verticalAlign="middle"/>
+			<e:Image source="gongju_39" x="112" y="113" width="30" height="29"/>
+			</e:Group>
+			<e:Image source="user01_png" width="96" y="118" height="96" x="76"/>
+		</e:Group>
+		<e:Group id="land_info" horizontalCenter="0" verticalCenter="-0.5" width="480" height="379" x="90" y="388" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="tibiao_02" scale9Grid="49,56,83,24" horizontalCenter="0" verticalCenter="0" width="439" height="304"/>
+			<e:Image source="tubiao_json.tibiao_26" x="185" y="280" anchorOffsetX="0" width="112" anchorOffsetY="0" height="44"/>
+			<e:Label id="up_level" text="升级" x="190.5" y="285" anchorOffsetX="0" width="100" anchorOffsetY="0" height="33" textAlign="center" verticalAlign="middle" textColor="0x4C2002" size="25" bold="true" fontFamily="huakang"/>
+			<e:Image id="close_land_info" source="tibiao_38" y="15" x="408" width="65" height="62"/>
+			<e:Image width="72" y="25" height="55" x="85" source="gongju_json.gongju_05" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image source="wenzi_43" y="36" x="346"/>
+			<e:Image x="151" y="11" width="208" height="71" source="tiShiFont_json.panel_title_land0_png"/>
+			<e:Label text="介绍：普通的土地，只能种出最普通的作物，" y="104" size="20" textColor="0x72420a" anchorOffsetX="0" width="335" anchorOffsetY="0" height="36" horizontalCenter="0"/>
+			<e:Label text="产出：苹果、萝卜" x="76" y="167" size="20" textColor="0x5e3f07"/>
+			<e:Label text="《可升级至红土地》" y="222" textColor="0xba380b" size="23" horizontalCenter="0" bold="true"/>
+		</e:Group>
+		<e:Group id="bozhong" horizontalCenter="0" verticalCenter="-0.5" width="480" height="379" x="100" y="398" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="tibiao_02" scale9Grid="49,56,83,24" horizontalCenter="0" verticalCenter="0" width="439" height="304"/>
+			<e:Image source="wenzi_20" width="66" y="21" height="51" x="115"/>
+			<e:Image source="wenzi_43" y="36" x="346"/>
+			<e:Image x="189" y="15" width="114" height="61" source="wenzi_json.wenzi_30" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label text="种子不足" x="179" y="107" textColor="0x5b3201"/>
+			<e:Label text="种子不足，点击确定到商店购买" x="48" y="172" anchorOffsetX="0" width="373" textColor="0xea0909" size="18" anchorOffsetY="0" height="16" verticalAlign="middle" textAlign="center"/>
+			<e:Image source="tubiao_json.tibiao_26" x="92" y="219" anchorOffsetX="0" width="112" anchorOffsetY="0" height="44"/>
+			<e:Label id="close_bozhong" text="取消" x="97.5" y="224" anchorOffsetX="0" width="100" anchorOffsetY="0" height="33" textAlign="center" verticalAlign="middle" textColor="0x4c2002" size="25" bold="true" fontFamily="huakang"/>
+			<e:Image source="tubiao_json.tibiao_26" x="246" y="219" anchorOffsetX="0" width="112" anchorOffsetY="0" height="44"/>
+			<e:Label text="确定" x="251.5" y="224" anchorOffsetX="0" width="100" anchorOffsetY="0" height="33" textAlign="center" verticalAlign="middle" textColor="0x4C2002" size="25" bold="true" fontFamily="huakang"/>
+		</e:Group>
+		<e:Group id="more_money" height="450" width="488" verticalCenter="0" horizontalCenter="0" x="76" y="343" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="tibiao_01" x="-34" y="-40" width="556" height="492" scale9Grid="80,130,105,50"/>
+			<e:Image source="img_01" x="0" y="0" height="400" scale9Grid="65,184,394,21" width="484"/>
+			<e:Image source="wenzi_12" x="-19" y="-60" width="535" scale9Grid="161,8,116,33" height="76"/>
+			<e:Image source="img_02" x="-40" y="-3" width="148"/>
+			<e:Image source="img_02" x="527" y="-8" rotation="360" skewY="180" width="140"/>
+			<e:Group height="56" width="417" y="387" horizontalCenter="0.5">
+			<e:Image source="tibiao_26" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="close_chongzhi" text="离开" textColor="0x7D2E09" verticalCenter="0" bold="true" width="158" height="46" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group height="173" width="145" x="39" y="173">
+			<e:Image source="rank_01" x="-13" y="-5" width="138" height="171"/>
+			<e:Image source="img_04" x="6" y="27" width="107" height="92"/>
+			<e:Image source="img_06" x="20" y="41" width="79" height="67"/>
+			<e:Label text="10 钻" x="55" y="80" size="18" textColor="0xF8A100"/>
+			</e:Group>
+			<e:Group width="144" y="173" height="173" x="186">
+			<e:Image source="rank_01" width="136" y="-5" height="171" x="-12"/>
+			<e:Image source="img_04" width="107" y="27" height="92" x="0"/>
+			<e:Image source="img_06" width="79" y="42" height="67" x="10"/>
+			<e:Label y="80" textColor="0xF8A100" size="18" text="10 钻" x="55"/>
+			</e:Group>
+			<e:Group width="134" y="177" height="173" x="335">
+			<e:Image source="rank_01" width="142" y="-5" height="171" x="-16"/>
+			<e:Image source="img_04" width="107" y="27" height="92" x="1"/>
+			<e:Image source="img_06" width="79" y="41" height="67" x="22"/>
+			<e:Label y="80" textColor="0xF8A100" size="18" text="10 钻" x="55"/>
+			</e:Group>
+			<e:Group height="70" width="446" x="32" y="76">
+			<e:Image source="tibiao_25" x="305" y="19" width="136" height="50"/>
+			<e:Label text="账户余额：0.875金币" x="5" y="28"/>
+			<e:Label text="金币充值" x="317" y="24" width="113" height="36" textAlign="center" verticalAlign="middle" textColor="0x692E04" bold="true" size="23"/>
+			</e:Group>
+			<e:Image source="tibiao_41" x="138" y="-88"/>
+			<e:Image source="wenzi_33" x="220" y="-92"/>
+		</e:Group>
+		<e:Group id="shop" width="560" y="228" height="766.67" horizontalCenter="0" verticalCenter="33.5" x="50" scaleX="1" scaleY="1" anchorOffsetY="0" visible="false">
+			<e:Image source="tibiao_01" width="558" y="0" scale9Grid="117,134,51,51" horizontalCenter="0" height="100%"/>
+			<e:Image source="tibiao_25" horizontalCenter="0.5" y="693.74" width="183"/>
+			<e:Label id="close_shop" width="171" y="703.74" textColor="0x522604" text="离开" textAlign="center" bold="true" verticalAlign="middle" horizontalCenter="0.5" height="49"/>
+			<e:Image x="192" y="-27" source="wenzi_json.wenzi_06"/>
+			<e:Image x="96" y="-26" width="87" source="icon_json.icon_40"/>
+			<e:Group height="573" width="477" horizontalCenter="-3.5" verticalCenter="6.1650000000000205" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image source="tabPanel_png" y="50.24" scale9Grid="146,19,59,28" width="468" height="530" horizontalCenter="4.5" anchorOffsetX="0"/>
+			<e:TabBar id="shopTabBar" dataProvider="{shopViewStack}" width="428.21" height="54.67" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-258" horizontalCenter="3.5">
+					<e:layout>
+					<e:HorizontalLayout/>
+					</e:layout>
+					<e:itemRendererSkinName>
+					<e:Skin states="up,down,disabled" height="53" width.up="100">
+						<e:Group minHeight="48" width="107" anchorOffsetY="0" height="62" anchorOffsetX="0" x="-3" y="-7" x.up="-1" y.up="1" width.up="100" y.down="-4" height.down="63" x.down="-3" height.up="53" width.down="103">
+						<e:Image width="106" height="49" alpha.disabled="0.5" anchorOffsetX="0" x="-2" y="1" scale9Grid="14,12,66,22" anchorOffsetY="0" includeIn="up" source="wenzi_51"/>
+						<e:Label size="26" text="{data}" fontFamily="huakang" textColor="0xFFFFFF" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" width="101" height="100%" x="3" y="0" width.up="99" width.down="137" height.down="52" y.down="5" height.up="52" y.up="0" x.up="0" strokeColor.up="0xe26d04" textColor.up="0xe26d04" stroke.down="3" strokeColor.down="0xe26d04" text.down="{data}" includeIn="up"/>
+						<e:Image width="115" height="60" includeIn="down" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" source="wenzi_14" scale9Grid="16,17,76,27"/>
+						<e:Label text="{data}" includeIn="down" x="6" y="8" fontFamily="huakang" anchorOffsetX="0" width="94" anchorOffsetY="0" height="50" size="25" verticalAlign="middle" textAlign="center" textColor="0xe00030"/>
+						</e:Group>
+					</e:Skin>
+					</e:itemRendererSkinName>
+				</e:TabBar>
+			<e:ViewStack id="shopViewStack" width="450" height="497.34" y="64.88" selectedIndex="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="3.5">
+				<e:Group width="100%" height="494" name="热销" anchorOffsetY="0" y="3" x="5" visible="false">
+					<e:List id="rexiao_list" width="450" y="0" height="500" x="0">
+						<e:layout>
+						<e:VerticalLayout/>
+						</e:layout>
+					</e:List>
+					<e:Scroller width="450" height="500" x="0" y="0">
+						
+						<e:Skin>
+							<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+								<e:Skin>
+								<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+								</e:Skin>
+							</e:VScrollBar>
+						</e:Skin>
+					</e:Scroller>
+					
+				</e:Group>
+				<e:Group width="449.48" height="500" name="道具" anchorOffsetY="0" x="5" y="3" anchorOffsetX="0" visible="false">
+					<e:Scroller  width="450" height="500" x="0" y="0">
+						<e:List id="gongju_list" width="450" y="0" height="500" x="0">
+							<e:layout>
+							<e:VerticalLayout/>
+							</e:layout>
+						</e:List>
+						<e:Skin>
+							<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+								<e:Skin>
+								<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+								</e:Skin>
+							</e:VScrollBar>
+						</e:Skin>
+					</e:Scroller>
+				</e:Group>
+				<e:Group width="449.48" height="500" name="宝箱" anchorOffsetY="0" x="5" y="3" anchorOffsetX="0" visible="false">
+					<e:Scroller  width="450" height="500" x="0" y="0">
+						<e:List id="baoxiang_list"  width="450" y="0" height="500" x="0">
+							<e:layout>
+							<e:VerticalLayout/>
+							</e:layout>
+						</e:List>
+						<e:Skin>
+							<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+								<e:Skin>
+								<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+								</e:Skin>
+							</e:VScrollBar>
+						</e:Skin>
+					</e:Scroller>
+				</e:Group>
+				<e:Group width="449.48" height="500" name="宠物" anchorOffsetY="0" x="5" y="3" anchorOffsetX="0">
+					<e:Scroller width="450" height="500" x="0" y="0">
+						<e:List id="chongwu_list" width="450" y="0" height="500" x="0">
+							<e:layout>
+							<e:VerticalLayout/>
+							</e:layout>
+						</e:List>
+						<e:Skin>
+							<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+								<e:Skin>
+								<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+								</e:Skin>
+							</e:VScrollBar>
+						</e:Skin>
+					</e:Scroller>
+				</e:Group>
+			</e:ViewStack>
+			</e:Group>
+		</e:Group>
+		<e:Group id="duihuan" width="560" y="238" height="766.67" horizontalCenter="0" verticalCenter="33.5" x="60" scaleX="1" scaleY="1" anchorOffsetY="0" visible="false">
+			<e:Image source="tibiao_01" width="558" y="0" scale9Grid="117,134,51,51" horizontalCenter="0" height="100%"/>
+			<e:Image source="tibiao_25" horizontalCenter="0.5" y="693.74" width="183"/>
+			<e:Label id="close_duihuan" width="171" y="703.74" textColor="0x522604" text="离开" textAlign="center" bold="true" verticalAlign="middle" horizontalCenter="0.5" height="49"/>
+			<e:Image x="192" y="-27" source="wenzi_json.wenzi_04"/>
+			<e:Image x="96" y="-25" width="83" source="tubiao_json.tibiao_32" anchorOffsetX="0" anchorOffsetY="0" height="76"/>
+			<e:Group height="573" width="477" horizontalCenter="-3.5" verticalCenter="6.1650000000000205" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image source="tabPanel_png" y="50.24" scale9Grid="146,19,59,28" width="468" height="530" horizontalCenter="4.5" anchorOffsetX="0"/>
+			<e:TabBar id="duihuanTabBar" dataProvider="{duihuanViewStack}" width="428.21" height="54.67" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-258" horizontalCenter="3.5">
+				<e:layout>
+					<e:HorizontalLayout/>
+					</e:layout>
+					<e:itemRendererSkinName>
+					<e:Skin states="up,down,disabled" height="53" width.up="100">
+						<e:Group minHeight="48" width="107" anchorOffsetY="0" height="62" anchorOffsetX="0" x="-3" y="-7" x.up="-1" y.up="1" width.up="100" y.down="-4" height.down="63" x.down="-3" height.up="53" width.down="103">
+						<e:Image width="106" height="49" alpha.disabled="0.5" anchorOffsetX="0" x="-2" y="1" scale9Grid="14,12,66,22" anchorOffsetY="0" includeIn="up" source="wenzi_51"/>
+						<e:Label size="26" text="{data}" fontFamily="huakang" textColor="0xFFFFFF" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" width="101" height="100%" x="3" y="0" width.up="99" width.down="137" height.down="52" y.down="5" height.up="52" y.up="0" x.up="0" strokeColor.up="0xe26d04" textColor.up="0xe26d04" stroke.down="3" strokeColor.down="0xe26d04" text.down="{data}" includeIn="up"/>
+						<e:Image width="115" height="60" includeIn="down" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" source="wenzi_14" scale9Grid="16,17,76,27"/>
+						<e:Label text="{data}" includeIn="down" x="6" y="8" fontFamily="huakang" anchorOffsetX="0" width="94" anchorOffsetY="0" height="50" size="25" verticalAlign="middle" textAlign="center" textColor="0xe00030"/>
+						</e:Group>
+					</e:Skin>
+					</e:itemRendererSkinName>
+			</e:TabBar>
+			<e:ViewStack id="duihuanViewStack" width="450" height="497.34" y="64.88" selectedIndex="3" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="3.5">
+				<e:Group width="100%" height="494" name="材料" anchorOffsetY="0" y="3" x="5">
+				<e:Scroller width="450" height="500" x="0" y="0">
+					<e:List id="sucai_list" width="450" y="0" height="500" x="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+					</e:List>
+					<e:Skin>
+					<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+						<e:Skin>
+						<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+						</e:Skin>
+					</e:VScrollBar>
+					</e:Skin>
+				</e:Scroller>
+				</e:Group>
+				<e:Group width="449.48" height="500" name="神像" anchorOffsetY="0" x="5" y="3" anchorOffsetX="0">
+				<e:Scroller width="450" height="500" x="0" y="0">
+					<e:List id="shenxiang_list" width="450" y="0" height="500" x="0">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+					</e:List>
+					<e:Skin>
+					<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+						<e:Skin>
+						<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+						</e:Skin>
+					</e:VScrollBar>
+					</e:Skin>
+				</e:Scroller>
+				</e:Group>
+				<e:Group width="449.48" height="500" name="背景" anchorOffsetY="0" x="5" y="3" anchorOffsetX="0">
+				<e:Scroller width="450" height="500" x="0" y="0">
+					<e:List id="beijing_list" width="450" y="0" height="500" x="0">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+					</e:List>
+					<e:Skin>
+					<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+						<e:Skin>
+						<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+						</e:Skin>
+					</e:VScrollBar>
+					</e:Skin>
+				</e:Scroller>
+				</e:Group>
+				<e:Group width="449.48" height="500" name="狗粮" anchorOffsetY="0" x="5" y="3" anchorOffsetX="0">
+				<e:Scroller width="450" height="500" x="0" y="0">
+					<e:List id="gouliang_list" width="450" y="0" height="500" x="0">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+					</e:List>
+					<e:Skin>
+					<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+						<e:Skin>
+						<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+						</e:Skin>
+					</e:VScrollBar>
+					</e:Skin>
+				</e:Scroller>
+				</e:Group>
+			</e:ViewStack>
+			</e:Group>
+		</e:Group>
+		<e:Group id="zhuangban" width="560" y="248" height="766.67" horizontalCenter="0" verticalCenter="33.5" x="70" scaleX="1" scaleY="1" anchorOffsetY="0" visible="false">
+			<e:Image source="tibiao_01" width="558" y="0" scale9Grid="117,134,51,51" horizontalCenter="0" height="100%"/>
+			<e:Image source="tibiao_25" horizontalCenter="0.5" y="693.74" width="183"/>
+			<e:Label id="close_zhuangban" width="171" y="703.74" textColor="0x522604" text="离开" textAlign="center" bold="true" verticalAlign="middle" horizontalCenter="0.5" height="49"/>
+			<e:Image x="224" y="-27" source="wenzi_json.wenzi_23"/>
+			<e:Image x="127" y="-28" width="84" anchorOffsetX="0" anchorOffsetY="0" height="86" source="icon_json.icon_07"/>
+			<e:Group height="565" width="459" horizontalCenter="0.5" verticalCenter="10.16500000000002" anchorOffsetY="0" anchorOffsetX="0">
+				
+				<e:Scroller width="450" height="552" x="5" y="3.5" scaleX="1" scaleY="1" anchorOffsetY="0">
+					<e:List id="zhuangban_list" anchorOffsetY="1.94" height="535" x="0" y="18.94">
+						<e:layout>
+							<e:VerticalLayout gap="30" paddingTop="25"/>
+						</e:layout>
+					</e:List>
+					<e:Skin>
+					<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+						<e:Skin>
+						<e:Image id="thumb" width="8" source="hScrollBar02_png" scale9Grid="1,1,4,4"/>
+						</e:Skin>
+					</e:VScrollBar>
+					</e:Skin>
+					
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

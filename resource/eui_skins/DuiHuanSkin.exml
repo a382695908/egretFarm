@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DuiHuanSkin" width="439" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="427.28" height="95.91" x="0" y="3" anchorOffsetX="0" anchorOffsetY="0">
+        <e:Image source="wenzi_json.wenzi_08" x="5.39" y="-2.35" anchorOffsetX="0" width="431.97" scale9Grid="28,34,108,41"/>
+        <e:Image x="331.77" y="35.08" anchorOffsetX="0" width="78.94" anchorOffsetY="0" height="37.48" source="tubiao_json.tibiao_26"/>
+        <e:Label text="兑换" x="338.21" y="38.82" textColor="0x7a4401" anchorOffsetX="0" width="66.06" anchorOffsetY="0" height="30" verticalAlign="middle" textAlign="center" size="25" bold="true"/>
+		<e:Group id="good_img" width="65" height="60" x="11" y="20" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="panel_png" x="1" y="-2" anchorOffsetX="0" width="64" anchorOffsetY="0" height="63"/>
+			<e:Image source="plants_json.plants09" anchorOffsetX="0" width="46" anchorOffsetY="0" height="51" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="wupin_left" width="36" height="37" x="94" y="38" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="gongju_json.gongju_53" x="0" y="-0.5" anchorOffsetX="0" width="37" anchorOffsetY="0" height="35"/>
+			<e:Image source="wenzi_json.wenzi_09" x="6.5" y="-27" scale9Grid="20,13,3,3" anchorOffsetX="0" width="53" anchorOffsetY="0" height="34"/>
+			<e:Label text="70" x="14" y="-22" anchorOffsetX="0" width="39" anchorOffsetY="0" height="19" size="12" textColor="0x000000" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+		<e:Group id="wupin_right" width="38" height="37" x="172.38" y="38" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="gongju_json.gongju_66" x="-1" y="-5" anchorOffsetX="0" width="41" anchorOffsetY="0" height="40"/>
+			<e:Image source="wenzi_json.wenzi_09" x="-5.62" y="-27" scale9Grid="20,13,3,3" anchorOffsetX="0" width="53" anchorOffsetY="0" height="34"/>
+			<e:Label text="70" x="3" y="-24" anchorOffsetX="0" width="38" anchorOffsetY="0" height="21" size="12" textColor="0x000000" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+        <e:Rect height="25" width="90" x="224" y="27" fillColor="0x753A03" ellipseWidth="20" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:TextInput x="226" y="27" width="87" prompt="1" height="25" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image source="tubiao_json.tibiao_15" x="139" y="46"/>
+		<e:Image source="tubiao_json.tibiao_29" x="278" y="62" anchorOffsetX="0" width="34" anchorOffsetY="0" height="25"/>
+		<e:Image source="tubiao_json.tibiao_24" x="227" y="62" anchorOffsetX="0" width="35" anchorOffsetY="0" height="24"/>
+        <e:Group id="goods_cont" y="-4" anchorOffsetX="90" anchorOffsetY="96" x="35" visible="false">
+			<e:Image source="wenzi_json.wenzi_13" x="0" y="0" anchorOffsetX="0" width="190" anchorOffsetY="0" height="100" scale9Grid="17,21,102,82"/>
+			<e:Label text="南瓜" x="100.5" y="5" size="23" textColor="0xf27904" scaleX="1" scaleY="1"/>
+			<e:Label text="南瓜可用于黑土地升级金土地" x="70" y="33" anchorOffsetX="0" width="116" anchorOffsetY="0" height="60" size="18" textColor="0xe87904" scaleX="1" scaleY="1"/>
+			<e:Group x="5" y="16" anchorOffsetX="0" width="61" anchorOffsetY="0" height="59">
+				<e:Image source="panel_png" x="-1" y="0" anchorOffsetX="0" width="61" anchorOffsetY="0" height="58"/>
+				<e:Image source="{data.icon}" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+    </e:Group>
+</e:Skin>

@@ -1,0 +1,5 @@
+{"file":"border.png","frames":{
+"border_04":{"x":0,"y":101,"w":172,"h":176,"offX":0,"offY":1,"sourceW":172,"sourceH":177},
+"border_05":{"x":174,"y":101,"w":160,"h":164,"offX":2,"offY":1,"sourceW":169,"sourceH":177},
+"border_01":{"x":0,"y":0,"w":375,"h":99,"offX":0,"offY":0,"sourceW":375,"sourceH":100},
+"border_02":{"x":377,"y":0,"w":75,"h":62,"offX":2,"offY":0,"sourceW":77,"sourceH":67}}}

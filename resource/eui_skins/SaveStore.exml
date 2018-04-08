@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SaveStoreSkin" width="70" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group id="goodsItem" height="70" width="70" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="panel_png" x="-1" y="-1" anchorOffsetX="0" width="70" anchorOffsetY="0" height="70"/>
+		<e:Image source="{data.icon}" horizontalCenter="0" verticalCenter="0"/> 
+		<e:Label textColor="0xA36A00" text="X199" textAlign="right" bold="true" width="64" size="14" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" height="18" right="7" bottom="2"/>
+		<e:Group id="goods_cont" y="-4" anchorOffsetX="90" anchorOffsetY="96" x="35" visible="false">
+			<e:Image source="wenzi_json.wenzi_13" x="0" y="0" anchorOffsetX="0" width="190" anchorOffsetY="0" height="100" scale9Grid="17,21,102,82"/>
+			<e:Label text="南瓜" x="100.5" y="5" size="23" textColor="0xf27904" scaleX="1" scaleY="1"/>
+			<e:Label text="南瓜可用于黑土地升级金土地" x="70" y="33" anchorOffsetX="0" width="116" anchorOffsetY="0" height="60" size="18" textColor="0xe87904" scaleX="1" scaleY="1"/>
+			<e:Group x="5" y="16" anchorOffsetX="0" width="61" anchorOffsetY="0" height="59">
+				<e:Image source="panel_png" x="-1" y="0" anchorOffsetX="0" width="61" anchorOffsetY="0" height="58"/>
+				<e:Image source="{data.icon}" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin> 

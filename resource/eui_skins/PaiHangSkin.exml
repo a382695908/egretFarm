@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PaiHangSkin" width="440" height="62" xmlns:e="http://ns.egret.com/eui"> 
+	<e:Group height="100%" width="440" y="0" x="0" name="农场" anchorOffsetX="0">
+		<e:Image source="rank_13" width="442" verticalCenter="0" height="100%" x="0" anchorOffsetX="0"/>
+		<e:Image source="{data.icon}" x="14" verticalCenter="0"/>
+		<e:Label text="千叶祥龙" x="67" size="20" textColor="0xAA7B05" width="120" textAlign="center" verticalAlign="middle" verticalCenter="0"/>
+		<e:Label textColor="0xAA7B05" text="8" width="49" size="20" x="188" verticalAlign="middle" textAlign="center" verticalCenter="0"/>
+		<e:Label textColor="0xAA7B05" text="1234567890" width="138" size="20" x="241" height="34" verticalAlign="middle" verticalCenter="0" anchorOffsetX="0" textAlign="center"/>
+		<e:Image source="rank_19" x="379" width="61" height="59" verticalCenter="-1.5"/>
+	</e:Group>
+	
+</e:Skin>

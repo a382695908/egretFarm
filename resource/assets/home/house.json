@@ -1,0 +1,13 @@
+{"file":"house.png","frames":{
+"house06":{"x":542,"y":616,"w":287,"h":211,"offX":0,"offY":0,"sourceW":292,"sourceH":211},
+"house07":{"x":841,"y":359,"w":361,"h":293,"offX":0,"offY":0,"sourceW":361,"sourceH":293},
+"house08":{"x":1230,"y":322,"w":370,"h":303,"offX":0,"offY":29,"sourceW":370,"sourceH":332},
+"house09":{"x":420,"y":361,"w":289,"h":253,"offX":0,"offY":0,"sourceW":289,"sourceH":253},
+"house10":{"x":1230,"y":1,"w":400,"h":319,"offX":0,"offY":29,"sourceW":400,"sourceH":348},
+"house11":{"x":1,"y":669,"w":257,"h":211,"offX":17,"offY":0,"sourceW":279,"sourceH":211},
+"house04":{"x":1,"y":1,"w":417,"h":424,"offX":0,"offY":0,"sourceW":417,"sourceH":425},
+"house05":{"x":1602,"y":322,"w":287,"h":211,"offX":0,"offY":0,"sourceW":292,"sourceH":211},
+"house02":{"x":280,"y":616,"w":260,"h":234,"offX":2,"offY":0,"sourceW":262,"sourceH":234},
+"house01":{"x":841,"y":1,"w":387,"h":356,"offX":0,"offY":0,"sourceW":387,"sourceH":356},
+"house12":{"x":1,"y":427,"w":277,"h":240,"offX":0,"offY":0,"sourceW":277,"sourceH":240},
+"house13":{"x":420,"y":1,"w":419,"h":358,"offX":0,"offY":2,"sourceW":419,"sourceH":367}}}

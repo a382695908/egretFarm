@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HouseImgSkin" width="429" height="249" xmlns:e="http://ns.egret.com/eui">
+    <e:Group width="430" height="249" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+        <e:Image source="houseImg_json.house_img5_png" x="1.5" y="7.67" anchorOffsetX="0" width="425" anchorOffsetY="0" height="235"/>
+        <e:Image source="houseImg_json.house_img1_png" x="22.5" y="25.5" anchorOffsetX="0" width="389" anchorOffsetY="0" height="198"/>
+        <e:Image source="wenzi_json.wenzi_02" y="-24" anchorOffsetX="0" width="187" anchorOffsetY="0" height="68" horizontalCenter="0"/>
+    </e:Group>
+</e:Skin>

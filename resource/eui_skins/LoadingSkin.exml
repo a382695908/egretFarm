@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Loading" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" scale9Grid="19,19,118,117" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%" source="load_json.load4_png"/>
+	<e:Image y="174" horizontalCenter="5" source="load_json.load3_png"/>
+	<e:Image x="98.65" y="405" source="load_json.load2_png"/>
+	<e:Image id="progress" x="139.65" y="440.32" width="0" source="load_json.load1_png"/>
+</e:Skin>
